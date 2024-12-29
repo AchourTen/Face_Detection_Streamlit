@@ -66,25 +66,17 @@ streamlit run app.py
    - Adjust the `scaleFactor` 
    - Change the `minNeighbors`
    
-   `scaleFactor`
-
-Controls how much the image is resized in each scanning pass
-Lower value (1.05): More accurate but slower
-Higher value (1.3): Faster but might miss faces
-Default: 1.1
-
-- Example:
-
-1.05: Best accuracy, slowest
-1.1: Good balance
-1.3: Fast but less accurate
-
- `minNeighbors`
-
-Sets number of nearby detections needed to declare a face
-Lower value (1-2): More detections, more false positives
-Higher value (4-6): Fewer false positives, might miss faces
-Default: 3
+         `scaleFactor`
+      - Controls how much the image is resized in each scanning pass
+      - Lower value (1.05): More accurate but slower
+      - Higher value (1.3): Faster but might miss faces
+      - Default: 1.1
+        
+         `minNeighbors`
+      - Sets number of nearby detections needed to declare a face
+      - Lower value (1-2): More detections, more false positives
+      - Higher value (4-6): Fewer false positives, might miss faces
+      - Default: 3
 
 4. Click the "Save Image with Detected Faces" button to save the current frame with detected faces
 
