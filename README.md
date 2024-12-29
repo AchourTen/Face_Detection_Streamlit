@@ -85,8 +85,7 @@ streamlit run app.py
 ```
 face-detection-app/
 ├── app.pyapp
-├── facedetection/
-│   └── haarcascade_frontalface_default.xml
+├── haarcascade_frontalface_default.xml
 ├── requirements.txt
 └── README.md
 ```
