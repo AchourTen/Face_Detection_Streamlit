@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 
 # Load the pre-trained Haar Cascade model for face detection
-face_cascade = cv2.CascadeClassifier('facedetection/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # Function to detect faces
 def detect_faces(frame, scaleFactor, minNeighbors, color):
